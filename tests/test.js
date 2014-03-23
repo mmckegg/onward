@@ -30,5 +30,9 @@ test(function(t){
   t.equal(get('value:makeLouder', context), 'HELLO!!!')
   t.equal(get('value:makeLouder:append(" EVERYONE!")', context), "HELLO!!! EVERYONE!")
   t.equal(get('object.attribute:then("It is true", "SO NOT TRUE")', context), "It is true")
+
+  // or include params
+  t.equal(get(['value:makeLouder:append(?)', ' People!'], context), "HELLO!!! People!")
+
   t.end()
 })
