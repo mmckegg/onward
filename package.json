@@ -1,0 +1,32 @@
+{
+  "name": "onward",
+  "version": "0.0.0",
+  "description": "JavaScript/JSON query language that pipes the result of one function to the next.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mmckegg/onward.git"
+  },
+  "keywords": [
+    "query",
+    "bind",
+    "functional",
+    "rincewind",
+    "pipe"
+  ],
+  "author": "Matt McKegg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmckegg/onward/issues"
+  },
+  "homepage": "https://github.com/mmckegg/onward",
+  "devDependencies": {
+    "tape": "^2.11.0"
+  }
+}
